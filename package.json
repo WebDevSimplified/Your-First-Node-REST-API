@@ -1,10 +1,10 @@
 {
   "name": "current-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,14 @@
   "devDependencies": {
     "dotenv": "^8.0.0",
     "nodemon": "^1.19.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawanda-profuse/Your-First-Node-REST-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tawanda-profuse/Your-First-Node-REST-API/issues"
+  },
+  "homepage": "https://github.com/tawanda-profuse/Your-First-Node-REST-API#readme",
+  "description": ""
 }
